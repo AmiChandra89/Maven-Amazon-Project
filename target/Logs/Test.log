@@ -1,0 +1,24 @@
+2018-09-07 08:16:26 INFO  CameraSteps:21 - **************Starting Test Case*******************
+2018-09-07 08:16:26 INFO  InitializeWebDrive:19 - Firefox
+2018-09-07 08:16:30 INFO  HomePage:49 - Launching URL: https://www.amazon.com
+2018-09-07 08:16:33 ERROR InitializeWebDrive:51 - org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MYPRECIOUS', ip: '10.10.10.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 24816, moz:profile: C:\Users\AmiChandra\AppData..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: fde22df4-89cd-4d00-bf01-d55f3ef432ee
+2018-09-07 08:19:10 INFO  CameraSteps:21 - **************Starting Test Case*******************
+2018-09-07 08:19:10 INFO  InitializeWebDrive:19 - Firefox
+2018-09-07 08:19:13 INFO  HomePage:49 - Launching URL: https://www.amazon.com
+2018-09-07 08:19:16 INFO  CameraSteps:30 - https://www.amazon.com Has been launched successfully
+2018-09-07 08:19:16 INFO  HomePage:59 - Searching Camera Nikon
+2018-09-07 08:19:19 INFO  CameraSteps:37 - Nikon Has been searched successfully
+2018-09-07 08:19:19 INFO  HomePage:70 - Sorting the prices based in ascending order
+2018-09-07 08:19:20 INFO  CameraSteps:39 - Result has been sorted successfully in ascending order
+2018-09-07 08:19:20 INFO  HomePage:86 - Verifying the details of the first product 
+2018-09-07 08:19:33 INFO  CameraSteps:47 - The seller brand is Nikon
+2018-09-07 08:19:33 INFO  CameraSteps:50 - Product is sold by Nikon
+2018-09-07 08:19:38 INFO  HomePage:97 - Verifying whether the following model is Nikon D3X
+2018-09-07 08:19:53 INFO  CameraSteps:59 - Product Name is: Nikon AF-S FX NIKKOR 800mm f/5.6E FL ED Vibration Reduction Fixed Zoom Lens with Auto Focus for Nikon DSLR Cameras International Version (No warranty)
+2018-09-07 08:19:55 INFO  InitializeWebDrive:48 - Shutting Down the driver
+2018-09-07 08:19:55 INFO  CameraSteps:72 - **************Test case completed*******************
