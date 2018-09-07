@@ -69,7 +69,7 @@ public class HomePage {
 	public boolean sortTheResults(String ascDesc) throws InterruptedException {
 		log.info("Sorting the prices based in " + ascDesc + " order");
 		WebElement temp = null;
-		if (ascDesc.equalsIgnoreCase("ascending")) {
+		if (ascDesc.equalsIgnoreCase("descending")) {
 			temp = sortResultAscending;
 		} else {
 			temp = sortResultDescending;
