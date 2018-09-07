@@ -22,3 +22,15 @@ The project achieves the following:
   10 Cucumber Reports can be found in target/cucumber-reports
   11. Code runs on both Chrome and Firefox
   
+Steps to execute:
+  1. Import the code from git
+  2. Import in your local IDE as an existing Maven project
+  3. Do Maven Install and build on pom.xml
+  4. Run the testNg.xml
+  
+Improvement Scope:
+  1. For reporting, libraries like Extent Reporting can be used
+  2. Exception handling and Logging at more places
+  3. Parametrization to run the test cases on multiple browsers. As of now, we will have to change the browser name(Chrome or Firefox) in Step file
+  4. More usage of Implicit and Explicit Wait instead of Thread sleep
+  
